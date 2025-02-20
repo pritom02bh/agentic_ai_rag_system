@@ -56,7 +56,7 @@ This project implements an **Agentic AI Retrieval-Augmented Generation (RAG)** s
 | **CI/CD** | GitHub Actions |
 
 ## ⚙️ System Architecture
-
+file:///C:/Users/Administrator/Downloads/mermaid-diagram-2025-02-20-164530.svg
 ![mermaid-diagram-2025-02-20-164219](https://github.com/user-attachments/assets/c271d6ce-7e6e-4a47-9f61-63b7dce85f33)
 
 
