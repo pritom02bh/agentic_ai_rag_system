@@ -12,17 +12,43 @@
 
 This project implements an **Agentic AI Retrieval-Augmented Generation (RAG)** system to streamline and enhance decision-making in the **Supply Chain and Logistics** domain. Leveraging the power of large language models (specifically **Llama3-70B**), intelligent agents, and a robust vector database, this system provides users with accurate, up-to-date, and insightful information through a user-friendly chatbot interface.
 
-## 🌟 Features
+## ⚙️ System Architecture
+<img src="https://github.com/user-attachments/assets/c271d6ce-7e6e-4a47-9f61-63b7dce85f33" width="75%">
 
-* **Chatbot Interface:** 💬 Intuitive user interface for easy interaction and query input.
-* **Intelligent Routing:** 🚦 A Router Agent analyzes user queries and directs them to the appropriate processing agents.
-* **Web Search Capability:** 🌐 Utilizes DuckDuckGo and Newspaper4k tools to gather real-time information from the web.
-* **Analytical Expertise:** 📊 An Analytical Expert Agent performs in-depth data analysis and generates actionable insights.
-* **RAG System:** 📚 Retrieves relevant data from a vector database containing Transportation and Inventory information.
-* **Data Aggregation:** 🔄 Combines data from various sources for comprehensive reporting.
-* **Report Generation:** 📝 Formats and presents information in a clear and concise manner.
-* **Powered by Agenta:** 🤖 Built on the Agenta framework for seamless agent orchestration.
-* **Llama3-70B Model:** 🧠 Leverages the advanced capabilities of the Llama3-70B model for accurate and context-aware responses.
+## 🗄️ File Structure
+![image](https://github.com/user-attachments/assets/e7af4fcc-2a65-44bb-9f38-c038984a5c14)
+
+
+
+## 🌟 Key Features
+
+- **Intuitive Chatbot Interface** 💬 
+  - Natural language query processing
+  - Contextual conversation history
+  - Rich response formatting with tables and charts
+
+- **Intelligent Multi-Agent System** 🧠
+  - **Router Agent** 🚦 - Analyzes queries and orchestrates workflow
+  - **Web Search Agent** 🌐 - Gathers real-time market data and logistics news
+  - **Analytical Expert Agent** 📊 - Performs in-depth data analysis
+  - **Report Generation Agent** 📝 - Creates comprehensive summaries
+
+- **Advanced RAG Capabilities** 📚
+  - Semantic search across logistics documents
+  - Hybrid retrieval combining keyword and vector search
+  - Custom chunking for complex logistics documentation
+
+- **Enterprise-Grade Data Integration** 🔄
+  - Transportation management system (TMS) integration
+  - Inventory management system connectivity
+  - Real-time freight rate lookups
+  - Warehouse capacity utilization tracking
+
+- **Supply Chain Analytics** 📈
+  - Demand forecasting assistance
+  - Route optimization suggestions
+  - Inventory level recommendations
+  - Risk assessment for supply disruptions
 
 ## 🛠️ Technology Stack
 
