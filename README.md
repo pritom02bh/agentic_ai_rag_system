@@ -1,4 +1,4 @@
-# 📦 Agentic AI RAG for Supply Chain & Logistics 🚚
+# 📦 Agentic AI RAG for Pharmaceutical Supply Chain & Logistics 🚚
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.9+-brightgreen.svg)](https://www.python.org/downloads/)
