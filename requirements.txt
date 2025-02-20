@@ -1,0 +1,31 @@
+# LLM & RAG-related libraries
+groq
+llama-index
+langchain
+openai
+sentence-transformers
+
+# Web Scraping & Search
+duckduckgo-search
+newspaper4k
+lxml_html_clean
+
+# Finance & Market Data
+yfinance
+
+# Database & Storage
+sqlalchemy
+psycopg[binary]
+pgvector
+pypdf
+
+# Containerization & Deployment
+udocker
+
+# General Utilities
+agno
+
+
+# others
+ipywidgets
+openai
