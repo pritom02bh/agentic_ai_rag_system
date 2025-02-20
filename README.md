@@ -59,16 +59,37 @@ This project implements an **Agentic AI Retrieval-Augmented Generation (RAG)** s
 
 ```mermaid
 graph TD
-    A[User Query] --> B[Router Agent]
-    B --> C{Query Type}
-    C -->|Market Data| D[Web Search Agent]
-    C -->|Performance Analysis| E[Analytical Expert Agent]
-    C -->|Inventory Lookup| F[RAG System]
-    D --> G[Data Aggregation]
+    subgraph User_Layer["User Interface Layer"]
+        A[User Query]
+        I[User Response]
+    end
+    
+    subgraph Orchestration_Layer["Orchestration Layer"]
+        B[Router Agent]
+        C{Query Type}
+    end
+    
+    subgraph Processing_Layer["Data Processing Layer"]
+        D[Web Search Agent]
+        E[Analytical Expert Agent]
+        F[RAG System]
+    end
+    
+    subgraph Integration_Layer["Integration Layer"]
+        G[Data Aggregation]
+        H[Report Generation Agent]
+    end
+    
+    A --> B
+    B --> C
+    C -->|Market Data| D
+    C -->|Performance Analysis| E
+    C -->|Inventory Lookup| F
+    D --> G
     E --> G
     F --> G
-    G --> H[Report Generation Agent]
-    H --> I[User Response]
+    G --> H
+    H --> I
     
     style A fill:#f9d5e5,stroke:#333,stroke-width:2px
     style B fill:#eeeeee,stroke:#333,stroke-width:2px
@@ -79,12 +100,15 @@ graph TD
     style G fill:#c5e0dc,stroke:#333,stroke-width:2px
     style H fill:#c5e0dc,stroke:#333,stroke-width:2px
     style I fill:#f9d5e5,stroke:#333,stroke-width:2px
+    
+    classDef layerStyle fill:#f5f5f5,stroke:#666,stroke-width:1px,rx:5,ry:5;
+    class User_Layer,Orchestration_Layer,Processing_Layer,Integration_Layer layerStyle;
 ```
 
 ## 🔄 Workflow Explanation
 
 1. **Query Submission** 🔍
-   - User submits logistics or supply chain questions through chat interface
+   - User submits logistics or supply chain question through chat interface
    - System captures context from conversation history
 
 2. **Intelligent Routing** 🧭
@@ -115,6 +139,7 @@ graph TD
 - DuckDuckGo API credentials
 
 
+
 ## 📊 Use Cases
 
 - **Inventory Optimization** 📦
@@ -132,6 +157,7 @@ graph TD
 - **Performance Analytics** 📈
   - "Generate a report on warehouse efficiency trends over the past 12 months"
   - "Compare carrier performance metrics across our top 5 logistics partners"
+
 
 
 <p align="center">
