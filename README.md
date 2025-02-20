@@ -15,6 +15,10 @@ This project implements an **Agentic AI Retrieval-Augmented Generation (RAG)** s
 ## ⚙️ System Architecture
 <img src="https://github.com/user-attachments/assets/c271d6ce-7e6e-4a47-9f61-63b7dce85f33" width="75%">
 
+## 🗄️ File Structure
+![image](https://github.com/user-attachments/assets/e7af4fcc-2a65-44bb-9f38-c038984a5c14)
+
+
 
 ## 🌟 Key Features
 
