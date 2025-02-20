@@ -13,7 +13,7 @@
 This project implements an **Agentic AI Retrieval-Augmented Generation (RAG)** system to streamline and enhance decision-making in the **Supply Chain and Logistics** domain. Leveraging the power of large language models (specifically **Llama3-70B**), intelligent agents, and a robust vector database, this system provides users with accurate, up-to-date, and insightful information through a user-friendly chatbot interface.
 
 ## ⚙️ System Architecture
-<img src="https://github.com/user-attachments/assets/c271d6ce-7e6e-4a47-9f61-63b7dce85f33" width="65%">
+<img src="https://github.com/user-attachments/assets/c271d6ce-7e6e-4a47-9f61-63b7dce85f33" width="75%">
 
 
 ## 🌟 Key Features
