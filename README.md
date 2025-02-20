@@ -32,7 +32,8 @@ This project implements an **Agentic AI Retrieval-Augmented Generation (RAG)** s
 
 ## ⚙️ Workflow
 
-photo
+![mermaid-diagram-2025-02-20-023320](https://github.com/user-attachments/assets/4b071a6b-9e1c-436c-894e-8f8cca67fab7)
+
 
 
 ## Workflow Explanation:
