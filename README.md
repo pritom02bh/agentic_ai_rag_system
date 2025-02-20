@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.9+-brightgreen.svg)](https://www.python.org/downloads/)
 [![Agenta Framework](https://img.shields.io/badge/Framework-Agenta-orange.svg)](https://github.com/your-agenta-repo)
+[![Maintenance](https://img.shields.io/badge/Maintained-Yes-success.svg)](https://github.com/yourusername/your-repo)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ---
 
@@ -10,40 +12,128 @@
 
 This project implements an **Agentic AI Retrieval-Augmented Generation (RAG)** system designed to streamline and enhance decision-making in the **Supply Chain and Logistics** domain. Leveraging the power of large language models (specifically **Llama3-70B**), intelligent agents, and a robust vector database, this system provides users with accurate, up-to-date, and insightful information through a user-friendly chatbot interface.
 
-## 🌟 Features
+## 🌟 Key Features
 
-* **Chatbot Interface:** 💬 Intuitive user interface for easy interaction and query input.
-* **Intelligent Routing:** 🚦 A Router Agent analyzes user queries and directs them to the appropriate processing agents.
-* **Web Search Capability:** 🌐 Utilizes DuckDuckGo and Newspaper4k tools to gather real-time information from the web.
-* **Analytical Expertise:** 📊 An Analytical Expert Agent performs in-depth data analysis and generates actionable insights.
-* **RAG System:** 📚 Retrieves relevant data from a vector database containing Transportation and Inventory information.
-* **Data Aggregation:** 🔄 Combines data from various sources for comprehensive reporting.
-* **Report Generation:** 📝 Formats and presents information in a clear and concise manner.
-* **Powered by Agenta:** 🤖 Built on the Agenta framework for seamless agent orchestration.
-* **Llama3-70B Model:** 🧠 Leverages the advanced capabilities of the Llama3-70B model for accurate and context-aware responses.
+- **Intuitive Chatbot Interface** 💬 
+  - Natural language query processing
+  - Contextual conversation history
+  - Rich response formatting with tables and charts
+
+- **Intelligent Multi-Agent System** 🧠
+  - **Router Agent** 🚦 - Analyzes queries and orchestrates workflow
+  - **Web Search Agent** 🌐 - Gathers real-time market data and logistics news
+  - **Analytical Expert Agent** 📊 - Performs in-depth data analysis
+  - **Report Generation Agent** 📝 - Creates comprehensive summaries
+
+- **Advanced RAG Capabilities** 📚
+  - Semantic search across logistics documents
+  - Hybrid retrieval combining keyword and vector search
+  - Custom chunking for complex logistics documentation
+
+- **Enterprise-Grade Data Integration** 🔄
+  - Transportation management system (TMS) integration
+  - Inventory management system connectivity
+  - Real-time freight rate lookups
+  - Warehouse capacity utilization tracking
+
+- **Supply Chain Analytics** 📈
+  - Demand forecasting assistance
+  - Route optimization suggestions
+  - Inventory level recommendations
+  - Risk assessment for supply disruptions
 
 ## 🛠️ Technology Stack
 
-* **Language Model:** Llama3-70B (Groq)
-* **Framework:** Agenta
-* **Web Search Tools:** DuckDuckGo, Newspaper4k
-* **Vector Database:** (Specify your vector database here, e.g., Chroma, FAISS)
-* **Programming Language:** Python 3.9+
+| Component | Technology |
+|-----------|------------|
+| **LLM Backend** | Llama3-70B (via Groq) |
+| **Framework** | Agenta |
+| **Web Search** | DuckDuckGo API, Newspaper4k |
+| **Vector Database** | Chroma DB |
+| **Embeddings** | E5-large-v2 |
+| **Programming** | Python 3.9+ |
+| **Containerization** | Docker |
+| **CI/CD** | GitHub Actions |
 
-## ⚙️ Workflow
+## ⚙️ System Architecture
 
-![mermaid-diagram-2025-02-20-023320](https://github.com/user-attachments/assets/4b071a6b-9e1c-436c-894e-8f8cca67fab7)
+```mermaid
+graph TD
+    A[User Query] --> B[Router Agent]
+    B --> C{Query Type}
+    C -->|Market Data| D[Web Search Agent]
+    C -->|Performance Analysis| E[Analytical Expert Agent]
+    C -->|Inventory Lookup| F[RAG System]
+    D --> G[Data Aggregation]
+    E --> G
+    F --> G
+    G --> H[Report Generation Agent]
+    H --> I[User Response]
+    
+    style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style B fill:#eeeeee,stroke:#333,stroke-width:2px
+    style C fill:#dddddd,stroke:#333,stroke-width:2px
+    style D fill:#d0e0e3,stroke:#333,stroke-width:2px
+    style E fill:#d0e0e3,stroke:#333,stroke-width:2px
+    style F fill:#d0e0e3,stroke:#333,stroke-width:2px
+    style G fill:#c5e0dc,stroke:#333,stroke-width:2px
+    style H fill:#c5e0dc,stroke:#333,stroke-width:2px
+    style I fill:#f9d5e5,stroke:#333,stroke-width:2px
+```
+
+## 🔄 Workflow Explanation
+
+1. **Query Submission** 🔍
+   - User submits logistics or supply chain questions through chat interface
+   - System captures context from conversation history
+
+2. **Intelligent Routing** 🧭
+   - Router Agent analyzes query intent and complexity
+   - Determines optimal processing path and required agents
+
+3. **Multi-Source Information Retrieval** 📊
+   - **Web Search**: Real-time freight rates, fuel prices, port delays
+   - **Analytics**: Historical performance data, seasonal patterns
+   - **RAG**: Company-specific logistics policies, carrier guidelines
+
+4. **Knowledge Integration** 🧩
+   - Cross-reference information from multiple sources
+   - Resolve conflicts between data points
+   - Prioritize information based on relevance and recency
+
+5. **Report Generation** 📄
+   - Structured response with executive summary
+   - Supporting data, charts, and actionable recommendations
+   - Citations to source information
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.9 or higher
+- Groq API key (for Llama3-70B access)
+- DuckDuckGo API credentials
 
 
+## 📊 Use Cases
 
-## Workflow Explanation:
+- **Inventory Optimization** 📦
+  - "What's the optimal safety stock level for product XYZ based on current lead times?"
+  - "How will the port congestion in Shanghai affect our Q3 inventory planning?"
 
-User Interaction: Users input queries through the chatbot interface.
-Routing: The Router Agent analyzes the query and determines the necessary processing steps.
-Information Retrieval:
-Web Search Agent: Gathers real-time information from the web.
-Analytical Expert Agent: Performs data analysis.
-RAG System: Retrieves data from the vector database.
-Data Aggregation: Combines data from all sources.
-Report Generation: Formats and presents the data in a user-friendly report.
-Output: Returns the report to the user through the chatbot interface.
+- **Transportation Planning** 🚛
+  - "What carriers have the best on-time delivery rate for the Midwest region?"
+  - "Compare costs between intermodal and full truckload for our West Coast shipments"
+
+- **Supply Chain Risk Management** ⚠️
+  - "Identify potential disruption risks for our semiconductor components"
+  - "What backup suppliers do we have for raw materials in Southeast Asia?"
+
+- **Performance Analytics** 📈
+  - "Generate a report on warehouse efficiency trends over the past 12 months"
+  - "Compare carrier performance metrics across our top 5 logistics partners"
+
+
+<p align="center">
+  <b>Developed by Pritom Bhowmik</b>
+</p>
