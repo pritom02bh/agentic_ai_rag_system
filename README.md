@@ -160,6 +160,6 @@ graph TD
 
 
 
-<p align="center">
+<p align="left">
   <b>Developed by Pritom Bhowmik</b>
 </p>
