@@ -25,7 +25,11 @@ udocker
 # General Utilities
 agno
 
-
 # others
 ipywidgets
 openai
+chromadb
+pandas
+numpy
+sentence-transformers
+tqdm
