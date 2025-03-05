@@ -1,8 +1,34 @@
 # 🌐 PharmaSync: Intelligent Medical Supply Chain Optimization AI
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.9+-brightgreen.svg)](https://www.python.org/downloads/)
 [![Maintenance](https://img.shields.io/badge/Maintained-Yes-success.svg)](https://github.com/yourusername/your-repo)
+
+## 🛠 Technology Stack
+
+<p align="center">
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  </a>
+  <a href="https://flask.palletsprojects.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  </a>
+  <a href="https://openai.com/" target="_blank">
+    <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI">
+  </a>
+  <a href="https://www.pinecone.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Pinecone-6E42BA?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJMMiA3bDEwIDUgMTAtNS0xMC01em0wIDEybDEwLTUgMTAgNS0xMCA1LTEwLTV6bTAgMTJsMTAtNSAxMCA1LTEwIDUtMTAtNXoiLz48L3N2Zz4=" alt="Pinecone">
+  </a>
+</p>
+
+## 🖼️ Project Visualizations
+
+<p align="center">
+  <img src="https://via.placeholder.com/800x400.png?text=PharmaSync+Architecture+Diagram" alt="System Architecture Diagram" width="800">
+  
+  <img src="https://via.placeholder.com/800x400.png?text=Supply+Chain+Data+Flow+Visualization" alt="Data Flow Visualization" width="800">
+  
+  <img src="https://via.placeholder.com/800x400.png?text=AI+Powered+Logistics+Insights" alt="AI Insights Visualization" width="800">
+</p>
 
 ## 🚀 Project Overview
 
@@ -34,14 +60,26 @@ PharmaSync is a revolutionary Artificial Intelligence ecosystem designed to tran
 
 ## 🛠️ Technology Stack
 
-| Domain | Technology |
-|--------|------------|
-| **Backend** | Flask |
-| **Language Model** | GPT-4o Mini |
-| **Vector Database** | Pinecone |
-| **Embeddings** | text-embedding-ada-002 |
-| **Frontend** | HTML5, CSS3, JavaScript |
-| **Database** | SQLite |
+| Domain | Technology | Details |
+|--------|------------|---------|
+| **Backend Framework** | 🌐 Flask | Python-based web framework |
+| **Language Model** | 🤖 OpenAI GPT-4o Mini | Advanced AI processing |
+| **Vector Database** | 🗃️ Pinecone | Semantic search and retrieval |
+| **Embeddings** | 📊 text-embedding-ada-002 | Advanced semantic encoding |
+| **Frontend** | 💻 HTML5, CSS3, JavaScript | Modern web technologies |
+| **Database** | 🗄️ SQLite | Lightweight, serverless database |
+
+### 🔗 Key Technology Integrations
+
+<p align="center">
+  <img src="https://via.placeholder.com/1000x300.png?text=Technology+Integration+Ecosystem" alt="Technology Integration" width="1000">
+</p>
+
+#### Core Technology Interactions
+- **AI-Powered Retrieval**: OpenAI models enhancing search capabilities
+- **Semantic Indexing**: Pinecone vector database for intelligent data mapping
+- **Scalable Backend**: Flask providing robust web application framework
+- **Efficient Data Handling**: SQLite for lightweight, fast data storage
 
 ## 🔄 Workflow Highlights
 
