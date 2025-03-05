@@ -1,4 +1,4 @@
-# 🌐 PharmaSync: Intelligent Medical Supply Chain Optimization AI
+# 🚀🤖🌐🏥💊 PharmaSync: Multi-Agent AI-Powered RAG Analytics for Smart Medical Supply Chains
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained-Yes-success.svg)](https://github.com/yourusername/your-repo)
@@ -40,23 +40,40 @@ PharmaSync is a revolutionary Artificial Intelligence ecosystem designed to tran
 
 ## 🌟 Key Features
 
-### 💬 Intelligent Chat Interface
-- Context-aware conversation handling
-- Modern, responsive user interface
-- Real-time response generation
-- Rich text and markdown support
+### 🤖 Intelligent Multi-Agent System
+- **Router Agent** 🚦: Orchestrates workflow and query processing
+  - Intelligent query analysis
+  - Dynamic agent coordination
+  - Contextual understanding
+
+- **Web Search Agent** 🌐: Real-time market intelligence
+  - Gather current logistics data
+  - Track market trends
+  - Update knowledge base dynamically
+
+- **Analytical Expert Agent** 📊: Advanced data analysis
+  - Deep dive into supply chain metrics
+  - Predictive modeling
+  - Complex pattern recognition
+
+- **Report Generation Agent** 📝: Comprehensive insights generation
+  - Synthesize cross-agent findings
+  - Create structured, actionable reports
+  - Provide strategic recommendations
 
 ### 🧠 Advanced RAG Capabilities
 - Multi-namespace document retrieval
 - Hybrid semantic search
 - Intelligent query processing
 - Conversation history integration
+- Contextual learning and adaptation
 
-### 📊 Supply Chain Analytics
+### 📊 Supply Chain Optimization
 - Real-time inventory monitoring
-- Transport logistics analysis
-- Data-driven recommendations
-- Predictive supply chain insights
+- Predictive logistics planning
+- Risk assessment and mitigation
+- Performance optimization recommendations
+- Strategic decision support
 
 ## 🛠️ Technology Stack
 
