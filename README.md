@@ -1,4 +1,4 @@
-# 🚀🤖🌐🏥💊 PharmaSync: Multi-Agent AI-Powered RAG Analytics for Smart Medical Supply Chains
+#🤖🌐 # PharmaSync: Multi-Agent AI-Powered RAG Analytics for Medical Supply Chains 🤖
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained-Yes-success.svg)](https://github.com/yourusername/your-repo)
@@ -17,6 +17,12 @@
   </a>
   <a href="https://www.pinecone.io/" target="_blank">
     <img src="https://img.shields.io/badge/Pinecone-6E42BA?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJMMiA3bDEwIDUgMTAtNS0xMC01em0wIDEybDEwLTUgMTAgNS0xMCA1LTEwLTV6bTAgMTJsMTAtNSAxMCA1LTEwIDUtMTAtNXoiLz48L3N2Zz4=" alt="Pinecone">
+  </a>
+  <a href="https://www.langchain.com/" target="_blank">
+    <img src="https://img.shields.io/badge/LangChain-1C3C50?style=for-the-badge&logo=python&logoColor=white" alt="LangChain">
+  </a>
+  <a href="https://www.sqlite.org/" target="_blank">
+    <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
   </a>
 </p>
 
@@ -83,6 +89,7 @@ PharmaSync is a revolutionary Artificial Intelligence ecosystem designed to tran
 | **Language Model** | 🤖 OpenAI GPT-4o Mini | Advanced AI processing |
 | **Vector Database** | 🗃️ Pinecone | Semantic search and retrieval |
 | **Embeddings** | 📊 text-embedding-ada-002 | Advanced semantic encoding |
+| **Orchestration** | 🔗 LangChain | AI workflow management |
 | **Frontend** | 💻 HTML5, CSS3, JavaScript | Modern web technologies |
 | **Database** | 🗄️ SQLite | Lightweight, serverless database |
 
@@ -97,6 +104,7 @@ PharmaSync is a revolutionary Artificial Intelligence ecosystem designed to tran
 - **Semantic Indexing**: Pinecone vector database for intelligent data mapping
 - **Scalable Backend**: Flask providing robust web application framework
 - **Efficient Data Handling**: SQLite for lightweight, fast data storage
+- **Workflow Orchestration**: LangChain managing complex AI interactions
 
 ## 🔄 Workflow Highlights
 
