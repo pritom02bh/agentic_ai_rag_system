@@ -1,0 +1,100 @@
+# Medical Supply Chain Information
+
+## Inventory Items
+
+### Surgical Masks
+- Product ID: SM-001
+- Current Stock: 5,000 units
+- Reorder Point: 1,000 units
+- Supplier: MedTech Solutions
+- Lead Time: 7-10 days
+- Storage Location: Warehouse A, Section 3
+- Notes: Standard 3-ply surgical masks, individually wrapped
+
+### N95 Respirators
+- Product ID: N95-002
+- Current Stock: 2,500 units
+- Reorder Point: 800 units
+- Supplier: SafeBreath Medical
+- Lead Time: 14-21 days
+- Storage Location: Warehouse A, Section 3, High-Security Area
+- Notes: NIOSH-approved, individually sealed
+
+### Nitrile Gloves
+- Product ID: NG-003
+- Current Stock: 10,000 pairs
+- Reorder Point: 2,500 pairs
+- Supplier: GloveCare Inc.
+- Lead Time: 5-7 days
+- Storage Location: Warehouse B, Section 1
+- Notes: Powder-free, available in sizes S, M, L, XL
+
+### Surgical Gowns
+- Product ID: SG-004
+- Current Stock: 3,000 units
+- Reorder Point: 750 units
+- Supplier: MedTech Solutions
+- Lead Time: 10-14 days
+- Storage Location: Warehouse B, Section 2
+- Notes: Level 3 protection, disposable
+
+### Face Shields
+- Product ID: FS-005
+- Current Stock: 1,500 units
+- Reorder Point: 400 units
+- Supplier: VisualGuard Medical
+- Lead Time: 7-10 days
+- Storage Location: Warehouse A, Section 4
+- Notes: Full-face coverage, anti-fog coating
+
+## Transportation Information
+
+### Primary Logistics Partners
+1. MedExpress Logistics
+   - Contact: John Smith (john.smith@medexpress.com, 555-123-4567)
+   - Services: Nationwide ground transportation, temperature-controlled vehicles
+   - Average Transit Time: 2-3 days
+
+2. AirMed Solutions
+   - Contact: Sarah Johnson (sjohnson@airmed.com, 555-987-6543)
+   - Services: Air freight, expedited shipping
+   - Average Transit Time: 1-2 days
+
+### Shipping Protocols
+- All temperature-sensitive items must be shipped in validated containers
+- Tracking devices must be included in all shipments valued over $10,000
+- Delivery confirmation required for all controlled substances
+- Insurance required for all shipments valued over $5,000
+
+### Distribution Centers
+1. East Coast Distribution Center
+   - Location: Philadelphia, PA
+   - Capacity: 50,000 sq ft
+   - Temperature-Controlled: Yes
+   - Manager: Michael Brown (mbrown@medsupply.com)
+
+2. West Coast Distribution Center
+   - Location: San Diego, CA
+   - Capacity: 65,000 sq ft
+   - Temperature-Controlled: Yes
+   - Manager: Lisa Chen (lchen@medsupply.com)
+
+3. Central Distribution Center
+   - Location: Dallas, TX
+   - Capacity: 75,000 sq ft
+   - Temperature-Controlled: Partial
+   - Manager: Robert Johnson (rjohnson@medsupply.com)
+
+## Emergency Protocols
+
+### Supply Shortage Response
+1. Activate alternative supplier contracts
+2. Implement conservation measures
+3. Prioritize distribution based on critical need
+4. Notify stakeholders of potential delays
+
+### Transportation Disruption
+1. Shift to alternative logistics partners
+2. Utilize air freight for critical supplies
+3. Activate regional distribution centers for local delivery
+4. Implement emergency delivery protocols for life-saving supplies 

@@ -1,0 +1,117 @@
+# Medical Supply Chain Transport Data
+
+## Recent Shipments
+
+### Shipment ID: SH-2025-001
+- Transport Mode: Ground
+- Carrier: MedExpress Logistics
+- Departure: Central Distribution Center, Dallas, TX
+- Arrival: Memorial Hospital, Houston, TX
+- Departure Date/Time: 2025-03-01 08:00 CST
+- Arrival Date/Time: 2025-03-01 14:30 CST
+- Status: Delivered
+- Contents: 
+  * 500 units Surgical Masks (SM-001)
+  * 200 units N95 Respirators (N95-002)
+  * 1000 pairs Nitrile Gloves (NG-003)
+- Temperature Controlled: Yes
+- Notes: Delivered on schedule, no incidents reported
+
+### Shipment ID: SH-2025-002
+- Transport Mode: Air Freight
+- Carrier: AirMed Solutions
+- Departure: West Coast Distribution Center, San Diego, CA
+- Arrival: Northwest Medical Center, Seattle, WA
+- Departure Date/Time: 2025-03-02 09:15 PST
+- Arrival Date/Time: 2025-03-02 12:45 PST
+- Status: Delivered
+- Contents: 
+  * 300 units Surgical Gowns (SG-004)
+  * 150 units Face Shields (FS-005)
+- Temperature Controlled: No
+- Notes: Expedited shipping due to urgent need
+
+### Shipment ID: SH-2025-003
+- Transport Mode: Ground
+- Carrier: MedExpress Logistics
+- Departure: East Coast Distribution Center, Philadelphia, PA
+- Arrival: Boston General Hospital, Boston, MA
+- Departure Date/Time: 2025-03-03 07:30 EST
+- Arrival Date/Time: 2025-03-03 15:45 EST
+- Status: Delayed
+- Contents: 
+  * 800 units Surgical Masks (SM-001)
+  * 400 units Surgical Gowns (SG-004)
+- Temperature Controlled: Yes
+- Notes: Delayed due to severe weather conditions, estimated arrival 2025-03-04
+
+### Shipment ID: SH-2025-004
+- Transport Mode: Ground
+- Carrier: MedExpress Logistics
+- Departure: Supplier: MedTech Solutions, Chicago, IL
+- Arrival: Central Distribution Center, Dallas, TX
+- Departure Date/Time: 2025-03-02 06:00 CST
+- Arrival Date/Time: 2025-03-03 10:30 CST
+- Status: In Transit
+- Contents: 
+  * 2000 units Surgical Masks (SM-001)
+  * 1000 units Surgical Gowns (SG-004)
+- Temperature Controlled: Yes
+- Notes: Restocking shipment for central distribution
+
+### Shipment ID: SH-2025-005
+- Transport Mode: Air Freight
+- Carrier: AirMed Solutions
+- Departure: Supplier: SafeBreath Medical, Denver, CO
+- Arrival: West Coast Distribution Center, San Diego, CA
+- Departure Date/Time: 2025-03-04 08:45 MST
+- Arrival Date/Time: 2025-03-04 10:15 PST
+- Status: Delivered
+- Contents: 
+  * 1500 units N95 Respirators (N95-002)
+- Temperature Controlled: No
+- Notes: Priority shipment to replenish low stock
+
+## Shipping Performance Metrics
+
+### On-Time Delivery Rate
+- Ground Transport: 87%
+- Air Freight: 94%
+- Overall: 89%
+
+### Average Transit Times
+- Regional Deliveries: 6.5 hours
+- Cross-Country Deliveries: 18.2 hours
+- Supplier to Distribution Center: 24.8 hours
+
+### Temperature Excursion Incidents
+- January 2025: 2 incidents
+- February 2025: 1 incident
+- March 2025 (to date): 0 incidents
+
+## Carrier Performance
+
+### MedExpress Logistics
+- On-Time Rate: 87%
+- Average Delay When Late: 3.2 hours
+- Temperature Control Compliance: 98.5%
+- Contract Renewal Date: 2025-12-31
+
+### AirMed Solutions
+- On-Time Rate: 94%
+- Average Delay When Late: 1.8 hours
+- Temperature Control Compliance: 99.2%
+- Contract Renewal Date: 2026-06-30
+
+## Route Optimization
+
+### High-Volume Routes
+1. Chicago to Dallas (Supplier to Distribution)
+   - Average Transit Time: 28.5 hours
+   - Shipment Frequency: 3 times per week
+   - Recommended Optimization: Dedicated transport agreement
+
+2. Dallas to Houston (Distribution to Hospital)
+   - Average Transit Time: 6.2 hours
+   - Shipment Frequency: Daily
+   - Recommended Optimization: Multiple daily runs during peak demand 

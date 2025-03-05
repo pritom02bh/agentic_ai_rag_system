@@ -1,0 +1,163 @@
+2025-03-05 14:04:13,221 - rag.embeddings - INFO - Initialized embedding service with model: text-embedding-ada-002
+2025-03-05 14:04:14,259 - rag.vector_store - INFO - Successfully connected to Pinecone index: medical-supply-chain
+2025-03-05 14:04:14,259 - rag.vector_store - INFO - Initialized vector store with namespace: inventory
+2025-03-05 14:04:15,160 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:04:15,160 - rag.retriever - INFO - Initialized retriever for namespace 'inventory'
+2025-03-05 14:04:16,017 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:04:16,299 - rag.rag_pipeline - INFO - Initialized RAG pipeline with namespace 'inventory'
+2025-03-05 14:04:16,953 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:04:17,370 - rag.vector_store - INFO - Found 0 similar documents in namespace 'inventory'
+2025-03-05 14:04:17,460 - rag.retriever - INFO - Retrieved 0 documents from namespace 'inventory'
+2025-03-05 14:04:17,735 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:04:17,770 - rag.vector_store - INFO - Found 0 similar documents in namespace 'transport'
+2025-03-05 14:04:17,770 - rag.retriever - INFO - Retrieved 0 documents from namespace 'transport'
+2025-03-05 14:04:18,268 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.97:5000
+2025-03-05 14:04:18,268 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 14:04:18,341 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 14:04:27,491 - rag.embeddings - INFO - Initialized embedding service with model: text-embedding-ada-002
+2025-03-05 14:04:28,045 - rag.vector_store - INFO - Successfully connected to Pinecone index: medical-supply-chain
+2025-03-05 14:04:28,045 - rag.vector_store - INFO - Initialized vector store with namespace: inventory
+2025-03-05 14:04:28,910 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:04:28,910 - rag.retriever - INFO - Initialized retriever for namespace 'inventory'
+2025-03-05 14:04:29,777 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:04:30,085 - rag.rag_pipeline - INFO - Initialized RAG pipeline with namespace 'inventory'
+2025-03-05 14:04:30,466 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:04:30,856 - rag.vector_store - INFO - Found 0 similar documents in namespace 'inventory'
+2025-03-05 14:04:30,857 - rag.retriever - INFO - Retrieved 0 documents from namespace 'inventory'
+2025-03-05 14:04:31,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:04:31,522 - rag.vector_store - INFO - Found 0 similar documents in namespace 'transport'
+2025-03-05 14:04:31,522 - rag.retriever - INFO - Retrieved 0 documents from namespace 'transport'
+2025-03-05 14:04:31,840 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 14:04:31,844 - werkzeug - INFO -  * Debugger PIN: 206-000-462
+2025-03-05 14:04:42,080 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:42] "GET / HTTP/1.1" 200 -
+2025-03-05 14:04:42,257 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 14:04:42,270 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-05 14:04:42,507 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:42] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:04:46,942 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:46] "POST /messages HTTP/1.1" 200 -
+2025-03-05 14:04:47,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-05 14:04:48,266 - rag.llm - INFO - Generated response using LangChain
+2025-03-05 14:04:48,581 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:48] "POST /query HTTP/1.1" 200 -
+2025-03-05 14:04:48,636 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:48] "POST /messages HTTP/1.1" 200 -
+2025-03-05 14:04:48,647 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:48] "GET /messages/abe2577c-552d-4061-ad54-8a58804fb37b HTTP/1.1" 200 -
+2025-03-05 14:04:48,698 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:48] "POST /chat_history HTTP/1.1" 200 -
+2025-03-05 14:04:48,707 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:04:48] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:05:01,543 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:05:01] "DELETE /chat_history/fc2d0694-1bfd-4617-b767-c53cd9ff33eb HTTP/1.1" 200 -
+2025-03-05 14:05:01,551 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:05:01] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:06:01,441 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:01] "POST /messages HTTP/1.1" 200 -
+2025-03-05 14:06:02,022 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-05 14:06:02,031 - rag.llm - INFO - Generated response using LangChain
+2025-03-05 14:06:02,084 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:02] "POST /query HTTP/1.1" 200 -
+2025-03-05 14:06:02,605 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:02] "POST /messages HTTP/1.1" 200 -
+2025-03-05 14:06:02,919 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:02] "GET /messages/93c72c63-a836-40c2-a329-5f5c1f22ccb7 HTTP/1.1" 200 -
+2025-03-05 14:06:03,194 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:03] "POST /chat_history HTTP/1.1" 200 -
+2025-03-05 14:06:03,210 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:03] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:06:09,688 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:09] "GET /messages/abe2577c-552d-4061-ad54-8a58804fb37b HTTP/1.1" 200 -
+2025-03-05 14:06:10,867 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:10] "GET /messages/2789da28-7485-414c-9095-7c1535c5feca HTTP/1.1" 200 -
+2025-03-05 14:06:12,597 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:12] "GET /messages/abe2577c-552d-4061-ad54-8a58804fb37b HTTP/1.1" 200 -
+2025-03-05 14:06:14,831 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:14] "GET /messages/92fd6f85-5733-489a-84aa-a80bf3720bc5 HTTP/1.1" 200 -
+2025-03-05 14:06:16,228 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:16] "GET /messages/6348ec37-4aec-4f16-bae7-744cf06fb38e HTTP/1.1" 200 -
+2025-03-05 14:06:28,028 - rag.rag_pipeline - INFO - Chat history cleared successfully
+2025-03-05 14:06:28,090 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:28] "POST /chat_history/clear HTTP/1.1" 200 -
+2025-03-05 14:06:28,101 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:28] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:06:33,929 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:33] "POST /messages HTTP/1.1" 200 -
+2025-03-05 14:06:34,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-05 14:06:34,594 - rag.llm - INFO - Generated response using LangChain
+2025-03-05 14:06:35,174 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:35] "POST /query HTTP/1.1" 200 -
+2025-03-05 14:06:35,227 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:35] "POST /messages HTTP/1.1" 200 -
+2025-03-05 14:06:35,235 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:35] "GET /messages/7605f142-6aa3-4d45-8487-5dadac0df933 HTTP/1.1" 200 -
+2025-03-05 14:06:35,288 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:35] "POST /chat_history HTTP/1.1" 200 -
+2025-03-05 14:06:35,296 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:06:35] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:09:07,677 - rag.embeddings - INFO - Initialized embedding service with model: text-embedding-ada-002
+2025-03-05 14:09:08,686 - rag.vector_store - INFO - Successfully connected to Pinecone index: medical-supply-chain
+2025-03-05 14:09:08,687 - rag.vector_store - INFO - Initialized vector store with namespace: inventory
+2025-03-05 14:09:09,630 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:09:09,631 - rag.retriever - INFO - Initialized retriever for namespace 'inventory'
+2025-03-05 14:09:10,540 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:09:10,846 - rag.rag_pipeline - INFO - Initialized RAG pipeline with namespace 'inventory'
+2025-03-05 14:09:11,095 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:09:11,521 - rag.vector_store - INFO - Found 0 similar documents in namespace 'inventory'
+2025-03-05 14:09:11,521 - rag.retriever - INFO - Retrieved 0 documents from namespace 'inventory'
+2025-03-05 14:09:11,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:09:12,006 - rag.vector_store - INFO - Found 0 similar documents in namespace 'transport'
+2025-03-05 14:09:12,006 - rag.retriever - INFO - Retrieved 0 documents from namespace 'transport'
+2025-03-05 14:09:12,538 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.97:5000
+2025-03-05 14:09:12,538 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 14:09:12,544 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 14:09:22,640 - rag.embeddings - INFO - Initialized embedding service with model: text-embedding-ada-002
+2025-03-05 14:09:23,208 - rag.vector_store - INFO - Successfully connected to Pinecone index: medical-supply-chain
+2025-03-05 14:09:23,209 - rag.vector_store - INFO - Initialized vector store with namespace: inventory
+2025-03-05 14:09:24,117 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:09:24,117 - rag.retriever - INFO - Initialized retriever for namespace 'inventory'
+2025-03-05 14:09:25,044 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:09:25,336 - rag.rag_pipeline - INFO - Initialized RAG pipeline with namespace 'inventory'
+2025-03-05 14:09:25,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:09:25,984 - rag.vector_store - INFO - Found 0 similar documents in namespace 'inventory'
+2025-03-05 14:09:25,985 - rag.retriever - INFO - Retrieved 0 documents from namespace 'inventory'
+2025-03-05 14:09:26,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:09:26,408 - rag.vector_store - INFO - Found 0 similar documents in namespace 'transport'
+2025-03-05 14:09:26,409 - rag.retriever - INFO - Retrieved 0 documents from namespace 'transport'
+2025-03-05 14:09:26,755 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 14:09:26,760 - werkzeug - INFO -  * Debugger PIN: 206-000-462
+2025-03-05 14:09:32,981 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:09:32] "GET / HTTP/1.1" 200 -
+2025-03-05 14:09:33,130 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:09:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 14:09:33,146 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:09:33] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-05 14:09:33,484 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:09:33] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:09:39,004 - rag.rag_pipeline - INFO - Chat history cleared successfully
+2025-03-05 14:09:39,133 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:09:39] "POST /chat_history/clear HTTP/1.1" 200 -
+2025-03-05 14:09:39,147 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:09:39] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:09:43,206 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-05 14:09:43,342 - rag.llm - INFO - Generated response using LangChain
+2025-03-05 14:09:43,395 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:09:43] "POST /query HTTP/1.1" 200 -
+2025-03-05 14:09:43,412 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:09:43] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:10:17,204 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:10:17] "DELETE /chat_history/4ff0f320-dd4b-4a04-a04b-c082dd334bab HTTP/1.1" 200 -
+2025-03-05 14:10:17,211 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:10:17] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:16:06,700 - rag.embeddings - INFO - Initialized embedding service with model: text-embedding-ada-002
+2025-03-05 14:16:07,270 - rag.vector_store - INFO - Successfully connected to Pinecone index: medical-supply-chain
+2025-03-05 14:16:07,271 - rag.vector_store - INFO - Initialized vector store with namespace: inventory
+2025-03-05 14:16:08,159 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:16:08,159 - rag.retriever - INFO - Initialized retriever for namespace 'inventory'
+2025-03-05 14:16:09,027 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:16:09,311 - rag.rag_pipeline - INFO - Initialized RAG pipeline with namespace 'inventory'
+2025-03-05 14:16:10,029 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:16:10,465 - rag.vector_store - INFO - Found 0 similar documents in namespace 'inventory'
+2025-03-05 14:16:10,465 - rag.retriever - INFO - Retrieved 0 documents from namespace 'inventory'
+2025-03-05 14:16:11,311 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:16:11,355 - rag.vector_store - INFO - Found 0 similar documents in namespace 'transport'
+2025-03-05 14:16:11,355 - rag.retriever - INFO - Retrieved 0 documents from namespace 'transport'
+2025-03-05 14:16:11,773 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.97:5000
+2025-03-05 14:16:11,773 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 14:16:11,782 - werkzeug - INFO -  * Restarting with stat
+2025-03-05 14:16:20,598 - rag.embeddings - INFO - Initialized embedding service with model: text-embedding-ada-002
+2025-03-05 14:16:21,568 - rag.vector_store - INFO - Successfully connected to Pinecone index: medical-supply-chain
+2025-03-05 14:16:21,572 - rag.vector_store - INFO - Initialized vector store with namespace: inventory
+2025-03-05 14:16:22,797 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:16:22,797 - rag.retriever - INFO - Initialized retriever for namespace 'inventory'
+2025-03-05 14:16:23,767 - rag.llm - INFO - Initialized LLM service with model: gpt-4o-mini
+2025-03-05 14:16:24,079 - rag.rag_pipeline - INFO - Initialized RAG pipeline with namespace 'inventory'
+2025-03-05 14:16:24,415 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:16:24,846 - rag.vector_store - INFO - Found 0 similar documents in namespace 'inventory'
+2025-03-05 14:16:24,846 - rag.retriever - INFO - Retrieved 0 documents from namespace 'inventory'
+2025-03-05 14:16:25,154 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 14:16:25,185 - rag.vector_store - INFO - Found 0 similar documents in namespace 'transport'
+2025-03-05 14:16:25,185 - rag.retriever - INFO - Retrieved 0 documents from namespace 'transport'
+2025-03-05 14:16:25,577 - werkzeug - WARNING -  * Debugger is active!
+2025-03-05 14:16:25,582 - werkzeug - INFO -  * Debugger PIN: 206-000-462
+2025-03-05 14:18:07,759 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:18:07] "GET / HTTP/1.1" 200 -
+2025-03-05 14:18:07,982 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:18:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-05 14:18:07,987 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:18:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-05 14:18:08,225 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:18:08] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:18:12,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-05 14:18:12,840 - rag.llm - INFO - Generated response using LangChain
+2025-03-05 14:18:12,939 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:18:12] "POST /query HTTP/1.1" 200 -
+2025-03-05 14:18:12,956 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:18:12] "GET /chat_history HTTP/1.1" 200 -
+2025-03-05 14:18:18,631 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:18:18] "DELETE /chat_history/fc3552c5-5044-4caf-bfc7-b2701be6bf1f HTTP/1.1" 200 -
+2025-03-05 14:18:18,640 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2025 14:18:18] "GET /chat_history HTTP/1.1" 200 -
