@@ -35,18 +35,18 @@ PharmaSync is a revolutionary Artificial Intelligence ecosystem that transforms 
 PharmaSync is continuously evolving to enhance AI-driven analytics for medical supply chains. Below is the current development status:
 
 - Retrieval-Augmented Generation (RAG) System ✅
-  -- UI development completed
-  -- Extensive testing and validation are underway
-  -- Prompt optimization for improved accuracy and contextual understanding
+  - UI development completed
+  - Extensive testing and validation are underway
+  - Prompt optimization for improved accuracy and contextual understanding
   
 - Multi-Agent Orchestration 🛠️
-  --Agentic components actively being developed
-  -- Testing phase initiated for autonomous workflow coordination
-  -- End-to-End System Integration 🔄
+  -Agentic components actively being developed
+  - Testing phase initiated for autonomous workflow coordination
+  - End-to-End System Integration 🔄
 
 - Upcoming milestones:
-  -- seamless integration of RAG and agentic components
-  -- Optimization for real-world scalability and performance
+  - seamless integration of RAG and agentic components
+  - Optimization for real-world scalability and performance
 
 ## ⚙️ System Architecture
 
