@@ -57,7 +57,7 @@ PharmaSync is a revolutionary Artificial Intelligence ecosystem that transforms 
 |-----------|----------|---------|
 | Unified Architecture | In Progress 🔄 | Integration of RAG intelligence with agent capabilities |
 | Enterprise-Ready Deployment | In Progress 🔄 | Optimization for handling real-world pharmaceutical volumes |
-| Performance Metrics | 04-10 2025 | Comprehensive analytics for system efficiency monitoring |
+| Performance Metrics | 04-10-2025 | Comprehensive analytics for system efficiency monitoring |
 
 ## ⚙️ System Architecture
 
