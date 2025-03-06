@@ -26,15 +26,6 @@
   </a>
 </p>
 
-## 🖼️ Project Visualizations
-
-<p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=PharmaSync+Architecture+Diagram" alt="System Architecture Diagram" width="800">
-  
-  <img src="https://via.placeholder.com/800x400.png?text=Supply+Chain+Data+Flow+Visualization" alt="Data Flow Visualization" width="800">
-  
-  <img src="https://via.placeholder.com/800x400.png?text=AI+Powered+Logistics+Insights" alt="AI Insights Visualization" width="800">
-</p>
 
 ## 🚀 Project Overview
 
@@ -43,19 +34,19 @@ PharmaSync is a revolutionary Artificial Intelligence ecosystem that transforms 
 ## 📈 Development Progress
 PharmaSync is continuously evolving to enhance AI-driven analytics for medical supply chains. Below is the current development status:
 
-Retrieval-Augmented Generation (RAG) System ✅
+- Retrieval-Augmented Generation (RAG) System ✅
+  -- UI development completed
+  -- Extensive testing and validation are underway
+  -- Prompt optimization for improved accuracy and contextual understanding
+  
+- Multi-Agent Orchestration 🛠️
+  --Agentic components actively being developed
+  -- Testing phase initiated for autonomous workflow coordination
+  -- End-to-End System Integration 🔄
 
-UI development completed
-Extensive testing and validation are underway
-Prompt optimization for improved accuracy and contextual understanding
-Multi-Agent Orchestration 🛠️
-
-Agentic components actively being developed
-Testing phase initiated for autonomous workflow coordination
-End-to-End System Integration 🔄
-
-Upcoming milestone: seamless integration of RAG and agentic components
-Optimization for real-world scalability and performance
+- Upcoming milestones:
+  -- seamless integration of RAG and agentic components
+  -- Optimization for real-world scalability and performance
 
 ## ⚙️ System Architecture
 
