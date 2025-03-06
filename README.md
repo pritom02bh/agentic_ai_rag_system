@@ -59,12 +59,6 @@ PharmaSync is a revolutionary Artificial Intelligence ecosystem that transforms 
 | Enterprise-Ready Deployment | In Progress 🔄 | Optimization for handling real-world pharmaceutical volumes |
 | Performance Metrics | 04-10 2025 | Comprehensive analytics for system efficiency monitoring |
 
-### 📊 Progress Snapshot
-
-![Progress](https://progress-bar.dev/42/?title=Completed&width=300&color=4CAF50)
-![In Progress](https://progress-bar.dev/35/?title=In+Progress&width=300&color=2196F3)
-![Planned](https://progress-bar.dev/23/?title=Planned&width=300&color=9E9E9E)
-
 ## ⚙️ System Architecture
 
 ![System Architecture](https://github.com/user-attachments/assets/c271d6ce-7e6e-4a47-9f61-63b7dce85f33)
