@@ -1,4 +1,4 @@
-# 🌐 PharmaSync: Multi-Agent AI-Powered RAG Analytics for Medical Supply Chains 🤖
+# 🌐 PharmaSync: Multi-Agent AI-Powered RAG System for Medical Supply Chains Analytics & Optimization 🤖
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained-Yes-success.svg)](https://github.com/yourusername/your-repo)
